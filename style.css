@@ -45,3 +45,15 @@ nav a {
 h1, h2 {
     color: #333;
 }
+
+main img {
+    display: block;
+    margin: 0 auto; /* Center the image horizontally */
+    max-width: 90%; /* Limit the maximum width to prevent overflow */
+    height: auto; /* Maintain aspect ratio */
+}
+
+main p {
+    text-align: center; /* Center the caption text */
+    color: #555; /* Optional: style the color of the caption text */
+}
