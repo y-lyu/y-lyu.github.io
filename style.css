@@ -1,0 +1,47 @@
+body, html {
+    font-family: 'Courier New', Courier, monospace;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #e8f4f8;  /* Light blue background for the header */
+    color: #005f73;             /* Darker blue for text */
+    padding: 20px;
+    text-align: center;
+}
+
+main {
+    padding: 20px;
+    background-color: #ffffff;  /* White background for main content */
+    margin: 20px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1); /* Soft shadow around the main content box */
+}
+
+section {
+    padding: 20px;
+    border-bottom: 1px solid #ececec; /* Light gray border for subtle separation */
+}
+
+section:last-of-type {
+    border-bottom: none; /* Remove border from the last section */
+}
+
+footer {
+    background-color: #d9e2ec;  /* Light gray background for the footer */
+    padding: 10px 20px;
+    text-align: center;
+}
+
+nav a {
+    color: #0077cc;
+    text-decoration: none;
+    padding: 5px 10px;
+    display: inline-block;
+}
+
+h1, h2 {
+    color: #333;
+}
