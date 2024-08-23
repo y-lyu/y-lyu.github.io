@@ -84,7 +84,7 @@ main p {
 .bio-comment {
     font-family: 'Consolas', 'Courier New', Courier, monospace;
     font-size: 20px; /* Adjust the size as needed */
-    color: #09134b; /* Dark gray color */
+    color: #0b1d80; /* Dark gray color */
     margin-bottom: 1.25rem;
 }
 
@@ -94,4 +94,14 @@ main p {
     margin-left: 20px; /* Add left margin */
     margin-right: 20px; /* Add right margin */
     margin-bottom: 15px; /* Add bottom margin */
+}
+
+.custom-link {
+    color: #0077cc;
+    text-decoration: none; /* Removes the underline */
+}
+
+.custom-link:hover, .custom-link:active, .custom-link:visited, .custom-link:focus {
+    color: #0077cc;
+    text-decoration: none; /* You can change this to 'none' if you don't want underline on hover */
 }
