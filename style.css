@@ -105,3 +105,7 @@ main p {
     color: #0077cc;
     text-decoration: none; /* You can change this to 'none' if you don't want underline on hover */
 }
+
+.blue-text {
+    color: blue;
+}
