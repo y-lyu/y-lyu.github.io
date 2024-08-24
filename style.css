@@ -18,7 +18,7 @@ header {
 main {
     padding:2rem;
     background-color: #ffffff;  /* White background for main content */
-    margin: 3rem;
+    margin: 4rem;
     box-shadow: 0 2px 5px rgba(0,0,0,0.1); /* Soft shadow around the main content box */
 }
 
