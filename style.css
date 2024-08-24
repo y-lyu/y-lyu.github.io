@@ -139,3 +139,7 @@ main p {
     margin: 0;
     padding: 0;
 }
+
+ul.custom-list-circle {
+    list-style-type: circle; /* Change bullet to circle */
+}
