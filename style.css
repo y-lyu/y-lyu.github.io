@@ -1,10 +1,12 @@
 body, html {
     font-family: 'Courier New', Courier, monospace;
     color: #000000;
-    margin: 0 30px; /* Add left and right margins */
+    margin: 0 ; /* Add left and right margins */
     padding: 0;
     background-color: #f4f4f4;
+    hyphens: auto; /* Enable hyphenation */
 }
+
 
 header {
     background-color: #e8f4f8;  /* Light blue background for the header */
@@ -14,15 +16,29 @@ header {
 }
 
 main {
-    padding: 20px;
+    padding:2rem;
     background-color: #ffffff;  /* White background for main content */
-    margin: 20px;
+    margin: 3rem;
     box-shadow: 0 2px 5px rgba(0,0,0,0.1); /* Soft shadow around the main content box */
 }
 
+@media (max-width: 600px) {
+    main {
+        padding: 0.4rem; /* Reduce padding on mobile screens */
+        margin: 0rem; /* Reduce margin on mobile screens */
+    }
+}
+
 section {
-    padding: 20px;
+    padding: 10px;
     border-bottom: 1px solid #ececec; /* Light gray border for subtle separation */
+}
+
+@media (max-width= 600px) {
+    section {
+        padding: 1px; /* Reduce padding on mobile screens */
+    }
+    
 }
 
 section:last-of-type {
@@ -55,6 +71,7 @@ nav a {
 
 h1, h2 {
     color: #333;
+    margin-bottom: 0.6rem;
 }
 
 main img {
@@ -96,6 +113,12 @@ main p {
     margin-bottom: 15px; /* Add bottom margin */
 }
 
+@media (max-width: 600px) {
+    .bio-block {
+        padding: 2px; /* Remove padding on mobile screens */
+    }
+}
+
 .custom-link {
     color: #0077cc;
     text-decoration: none; /* Removes the underline */
@@ -108,4 +131,6 @@ main p {
 
 .blue-text {
     color: blue;
+    margin: 0;
+    padding: 0;
 }
