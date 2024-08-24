@@ -23,10 +23,15 @@ main {
 }
 
 @media (max-width: 600px) {
+    body, html {
+        font-size: 15px; /* Reduces base font size on mobile devices */
+    }
     main {
         padding: 0.4rem; /* Reduce padding on mobile screens */
         margin: 0rem; /* Reduce margin on mobile screens */
+        
     }
+
 }
 
 section {
